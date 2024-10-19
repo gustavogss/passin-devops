@@ -1,6 +1,6 @@
-# pass.in
+# PASSIN DEVOPS
 
-O pass.in é uma aplicação de **gestão de participantes em eventos presenciais**. 
+API para **gestão de participantes em eventos presenciais** com DevOps
 
 A ferramenta permite que o organizador cadastre um evento e abra uma página pública de inscrição.
 
@@ -29,13 +29,21 @@ O sistema fará um scan da credencial do participante para permitir a entrada no
 
 - [x] O check-in no evento será realizado através de um QRCode;
 
-## Documentação da API (Swagger)
+## API (Swagger)
 
-Para documentação da API, acesse o link: https://nlw-unite-nodejs.onrender.com/docs
+[http://localhost:3001/docs](http://localhost:3001/docs)
 
-## Banco de dados
+## Stacks
 
-Nessa aplicação vamos utilizar banco de dados relacional (SQL). Para ambiente de desenvolvimento seguiremos com o SQLite pela facilidade do ambiente.
+- Node
+- Typescript
+- Zod
+- Fastfy
+- Postgresql
+- Docker
+- Kubernets
+- Terraform
+
 
 ### Diagrama ERD
 
