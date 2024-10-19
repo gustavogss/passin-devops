@@ -4,3 +4,4 @@ Dockerfile
 .git*
 .dockerignore
 .gitignore
+vercel.json

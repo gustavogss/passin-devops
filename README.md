@@ -1,6 +1,6 @@
-# PASSIN DEVOPS
+# pass.in
 
-ApI de **gestão de participantes em eventos presenciais** com CICD
+O pass.in é uma aplicação de **gestão de participantes em eventos presenciais**. 
 
 A ferramenta permite que o organizador cadastre um evento e abra uma página pública de inscrição.
 
@@ -31,7 +31,7 @@ O sistema fará um scan da credencial do participante para permitir a entrada no
 
 ## Documentação da API (Swagger)
 
-Para documentação da API, acesse o link: http://localhost:3001/docs
+Para documentação da API, acesse o link: https://nlw-unite-nodejs.onrender.com/docs
 
 ## Banco de dados
 
