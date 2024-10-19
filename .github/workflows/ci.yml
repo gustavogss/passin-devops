@@ -32,3 +32,5 @@ jobs:
       - name: Push image
         run: |
           docker push gustavogssjp/passin-devops:${{steps.generate_sha.outputs.sha}}
+          docker tag gustavogssjp/passin-devops:${{steps.generate_sha.outputs.sha}} gustavogssjp/passin-devops:latest
+          docker push gustavogssjp/passin-devops:latest
