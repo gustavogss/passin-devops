@@ -22,3 +22,13 @@ jobs:
 
       - name: Build docker image
         run: docker build -t gustavogssjp/passin-devops:${{steps.generate_sha.outputs.sha}} .
+
+      - name: Log into the container registery
+        uses: docker/login-action@v3
+        with:
+          username: ${{secrets.DOCKERHUB_USERNAME}}
+          password: ${{secrets.DOCKERHUB_TOKEN}}
+
+      - name: Push image
+        run: |
+          docker push gustavogssjp/passin-devops:${{steps.generate_sha.outputs.sha}}
